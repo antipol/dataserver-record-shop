@@ -3,7 +3,8 @@
     {
       "artist": "Metallica",
       "title": "Hunger",
-      "year": "2005"
+      "year": "2005",
+      "id": "yoooo"
     },
     {
       "artist": "Abba",
@@ -19,6 +20,145 @@
       "artist": "Madonna",
       "title": "Holiday",
       "year": "1989"
+    },
+    {
+      "artist": "David Bowie",
+      "title": "Ziggy Stardust",
+      "year": "1978"
+    },
+    {
+      "artist": "David Bowie",
+      "title": "Ziggy Stardust",
+      "year": "1978"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978",
+      "id": "1573031448987"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978",
+      "id": "1573031488692"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978",
+      "id": "1573031621771"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978",
+      "id": "1573031640967"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978",
+      "id": "1573031664168"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978",
+      "id": "1573036998846"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978",
+      "id": "1573037004687"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978",
+      "id": "1573037050207"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978",
+      "id": "1573037053084"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978",
+      "id": "1573037106528"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978",
+      "id": "1573037197732"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978",
+      "id": "1573037225053"
+    },
+    {
+      "artist": "Bob",
+      "title": "Yo",
+      "year": "1978",
+      "id": "1573037559588"
+    },
+    {
+      "artist": "Jorn",
+      "title": "Yo",
+      "year": "1978",
+      "id": "1573037599472"
     }
   ]
 }

@@ -1,4 +1,3 @@
-const express = require("express");
 const low = require("lowdb");
 const FileSync = require("lowdb/adapters/FileSync");
 const adapter = new FileSync("./data/records.json");
@@ -23,6 +22,8 @@ exports.addRecord = (req, res) => {
   //push new album to the json file
   db.get("albums")
     .push(newAlbum)
+    .last()
+    .assign({ id: Date.now().toString() })
     .write();
 
   //On success, show new album in postman
