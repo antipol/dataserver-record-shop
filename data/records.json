@@ -1,0 +1,24 @@
+{
+  "albums": [
+    {
+      "artist": "Metallica",
+      "title": "Hunger",
+      "year": "2005"
+    },
+    {
+      "artist": "Abba",
+      "title": "Mamma Mia",
+      "year": "1979"
+    },
+    {
+      "artist": "Eminem",
+      "title": "Mamma Mia",
+      "year": "1979"
+    },
+    {
+      "artist": "Madonna",
+      "title": "Holiday",
+      "year": "1989"
+    }
+  ]
+}
