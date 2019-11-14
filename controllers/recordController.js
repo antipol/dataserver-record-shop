@@ -3,9 +3,37 @@ const FileSync = require("lowdb/adapters/FileSync");
 const adapter = new FileSync("./data/records.json");
 const db = low(adapter);
 
-exports.showRecords = (req, res) => {
-  const getAlbums = db.get("albums").value();
+//show all records
+exports.getRecords = (req, res) => {
+  const getAlbums = db.get("records").value();
   res.status(200).send(getAlbums);
+};
+
+//show specific record (based on id)
+exports.getRecord = (req, res) => {
+  const { id } = req.params;
+  const album = db.get("records").find({ id });
+  res.status(200).send(album);
+};
+
+exports.deleteRecord = (req, res) => {
+  const { id } = req.params;
+  const album = db
+    .get("records")
+    .remove({ id })
+    .write();
+  res.status(200).send(album);
+};
+
+exports.updateRecord = (req, res) => {
+  const { id } = req.params;
+  const update = req.body;
+  const album = db
+    .get("records")
+    .find({ id })
+    .assign(update)
+    .write();
+  res.status(200).send(album);
 };
 
 exports.addRecord = (req, res) => {
@@ -20,7 +48,7 @@ exports.addRecord = (req, res) => {
   }
 
   //push new album to the json file
-  db.get("albums")
+  db.get("records")
     .push(newAlbum)
     .last()
     .assign({ id: Date.now().toString() })
